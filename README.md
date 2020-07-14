@@ -1,4 +1,7 @@
-### Hi there 👋
+## Hello guys!
+My name is Filipe and I am a junior web developer.
+
+- 🌱 I’m currently learning JavaScript!
 
 <!--
 **filipemeirelles/filipemeirelles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,18 +1,24 @@
-<img align="right" width="400" height="400" src="coloque_o_link_de_uma_foto_ou_gif_aqui">
+# Hi, I'm Filipe Augusto! 👋
 
-# Welcome!
+### Physical Education Professional 🏋️‍♂️ ➔ Data Analyst & Python Developer 🐍
 
-## I'm Filipe Meirelles!
+I am a professional in career transition, moving from a solid background in Physical Education to the world of **Data Science and AI**. With a diagnostic of **ADHD and High Abilities (Giftedness)**, I possess a natural affinity for complex logical reasoning, pattern recognition, and hyper-focus, which I now apply to building data-driven solutions.
 
-… Currently studying JavaScript and React!
+---
 
+### 🚀 About Me
+- 🎓 Currently pursuing a **Postgraduate degree in Data Science and AI** (Anhanguera) and a **Data Analysis** specialization (EBAC).
+- 🎓 Bachelor of Physical Education (UNICSUL).
+- 💼 Over 3 years of experience (since 2021) managing teams, metrics, and performance data as a Personal Trainer and Coordinator.
+- 🎯 My goal is to work remotely as a **Data Analyst / Python Developer** to balance professional excellence with being present for my young son.
 
-## About me 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/filipemeirelles)](https://github.com/filipemeirelles)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/filipe-meirelles-2a956242/)](https://www.linkedin.com/in/filipe-meirelles-2a956242/)
-[![Whatsapp Badge](https://img.shields.io/badge/-Whatsapp-4CA143?style=flat-square&labelColor=4CA143&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=5519991700494&text=Hello!)](https://api.whatsapp.com/send?phone=5519991700494&text=Hello!)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fmeirelles91@gmail.com)](mailto:fmeirelles91@gmail.com)
+---
 
-- Thanks for visiting. 
+### 🛠 Tech Stack & Tools
+- **Languages:** Python (Pandas, NumPy, Matplotlib)
+- **Databases:** SQL
+- **Data Visualization:** Power BI, Excel (Advanced)
+- **Soft Skills:** Logical Reasoning, Leadership, Analytical Thinking, Fast Learning
 
-- Enjoy it!! o/
+### 📫 Connect with me:
+[![LinkedIn](

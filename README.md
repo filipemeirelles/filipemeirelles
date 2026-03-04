@@ -20,5 +20,10 @@ I am a professional in career transition, moving from a solid background in Phys
 - **Data Visualization:** Power BI, Excel (Advanced)
 - **Soft Skills:** Logical Reasoning, Leadership, Analytical Thinking, Fast Learning
 
+
 ### 📫 Connect with me:
-[![LinkedIn](
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filipeasmeirelles)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+
+---
+*"Turning raw data into actionable intelligence with logic and focus."*

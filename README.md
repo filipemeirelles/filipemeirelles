@@ -1,29 +1,31 @@
-# Hi, I'm Filipe Augusto! 👋
+# Hi, I'm Filipe Meirelles 👋
 
-### Physical Education Professional 🏋️‍♂️ ➔ Data Analyst & Python Developer 🐍
-
-I am a professional in career transition, moving from a solid background in Physical Education to the world of **Data Science and AI**. With a diagnostic of **ADHD and High Abilities (Giftedness)**, I possess a natural affinity for complex logical reasoning, pattern recognition, and hyper-focus, which I now apply to building data-driven solutions.
+Developer focused on **AI Automation** — building agents, workflows, and integrations that solve real-world problems.
 
 ---
 
-### 🚀 About Me
-- 🎓 Currently pursuing a **Postgraduate degree in Data Science and AI** (Anhanguera) and a **Data Analysis** specialization (EBAC).
-- 🎓 Bachelor of Physical Education (UNICSUL).
-- 💼 Over 3 years of experience (since 2021) managing teams, metrics, and performance data as a Personal Trainer and Coordinator.
-- 🎯 My goal is to work remotely as a **Data Analyst / Python Developer** to balance professional excellence with being present for my young son.
+## 🛠 Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+- **Languages:** Python · JavaScript · HTML/CSS  
+- **Automation:** n8n · REST APIs · Webhooks  
+- **AI:** Claude API · OpenAI · AI Agents  
+- **Tools:** Git · VS Code  
 
 ---
 
-### 🛠 Tech Stack & Tools
-- **Languages:** Python (Pandas, NumPy, Matplotlib)
-- **Databases:** SQL
-- **Data Visualization:** Power BI, Excel (Advanced)
-- **Soft Skills:** Logical Reasoning, Leadership, Analytical Thinking, Fast Learning
+## 📊 GitHub Stats
 
-
-### 📫 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filipeasmeirelles)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+![Filipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=filipemeirelles&show_icons=true&theme=dark&hide_border=true)
 
 ---
-*"Turning raw data into actionable intelligence with logic and focus."*
+
+## 📫 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/filipeasmeirelles)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:fmeirelles91@gmail.com)

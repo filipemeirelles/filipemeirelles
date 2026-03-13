@@ -1,31 +1,46 @@
-# Hi, I'm Filipe Meirelles 👋
+# Web App de Avaliação Física
 
-Developer focused on **AI Automation** — building agents, workflows, and integrations that solve real-world problems.
+Aplicação web (HTML/CSS/JS puro) para:
 
----
+1. Coletar dados demográficos, perfil físico, dados antropométricos e contexto da avaliação.
+2. Sugerir automaticamente o protocolo antropométrico mais adequado.
+3. Permitir selecionar outro protocolo manualmente.
+4. Preencher os dados específicos do protocolo escolhido.
+5. Calcular e exibir indicadores como IMC, massa gorda, massa magra, percentual de gordura, percentual de músculo estimado e risco cardíaco.
 
-## 🛠 Stack
+## Como executar
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+Basta abrir o `index.html` no navegador ou executar um servidor local simples:
 
-- **Languages:** Python · JavaScript · HTML/CSS  
-- **Automation:** n8n · REST APIs · Webhooks  
-- **AI:** Claude API · OpenAI · AI Agents  
-- **Tools:** Git · VS Code  
+```bash
+python3 -m http.server 8000
+```
 
----
+Depois, acesse `http://localhost:8000`.
 
-## 📊 GitHub Stats
+## Protocolos suportados
 
-![Filipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=filipemeirelles&show_icons=true&theme=dark&hide_border=true)
+- Jackson & Pollock (3, 4 e 7 dobras)
+- Slaughter (2 dobras)
+- Petroski (modelo simplificado)
+- Guedes (3 dobras para homens e mulheres)
+- Faulkner (4 dobras)
+- Evans (3 dobras para atletas, modelo simplificado)
+- Peterson (4 dobras, modelo simplificado)
 
----
+> Observação: protocolos marcados como “modelo simplificado” usam aproximações quando a equação completa não foi detalhada no escopo.
 
-## 📫 Contact
+## Erro "Not Found" no preview (especialmente no celular)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/filipeasmeirelles)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:fmeirelles91@gmail.com)
+Isso normalmente **não é por ser celular**, e sim por URL de preview/rota:
+
+- Em preview estático, tente abrir diretamente `.../index.html`.
+- Se a plataforma abrir uma subrota, o fallback `404.html` agora redireciona para a mesma app.
+- Em GitHub Pages, publique a raiz do repositório e use a URL final do Pages.
+
+Dica rápida de teste local:
+
+```bash
+python3 -m http.server 8000
+# depois abra http://localhost:8000/index.html
+```

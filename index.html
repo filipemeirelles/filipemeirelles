@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avaliação Física</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Web App de Avaliação Física</h1>
+
+    <section id="step-1" class="card">
+      <h2>1) Triagem e seleção de protocolo</h2>
+      <div class="grid two-cols">
+        <label>Sexo
+          <select id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+          </select>
+        </label>
+
+        <label>Idade
+          <input id="idade" type="number" min="5" max="100" value="25" />
+        </label>
+
+        <label>Etnia (quando aplicável)
+          <input id="etnia" type="text" placeholder="Ex.: branca, negra, parda..." />
+        </label>
+
+        <label>Nível de atividade física
+          <select id="atividade">
+            <option value="baixo">Baixo</option>
+            <option value="moderado" selected>Moderado</option>
+            <option value="alto">Alto</option>
+          </select>
+        </label>
+
+        <label>Perfil
+          <select id="perfil">
+            <option value="geral" selected>População geral</option>
+            <option value="atleta">Atleta</option>
+          </select>
+        </label>
+
+        <label>Nível de gordura estimado
+          <select id="gordura-estimada">
+            <option value="baixo">Baixo</option>
+            <option value="medio" selected>Médio</option>
+            <option value="alto">Alto</option>
+          </select>
+        </label>
+
+        <label>Peso (kg)
+          <input id="peso" type="number" min="20" step="0.1" value="70" />
+        </label>
+
+        <label>Altura (cm)
+          <input id="altura" type="number" min="100" step="0.1" value="170" />
+        </label>
+
+        <label>Contexto da avaliação
+          <select id="contexto">
+            <option value="adulto" selected>Adulto</option>
+            <option value="crianca">Criança/adolescente</option>
+            <option value="atleta">Atleta</option>
+            <option value="clinico">População clínica</option>
+          </select>
+        </label>
+
+        <label>População de referência
+          <select id="populacao">
+            <option value="brasileira" selected>Brasileira</option>
+            <option value="internacional">Internacional</option>
+          </select>
+        </label>
+      </div>
+
+      <button id="btn-sugerir">Sugerir protocolo</button>
+
+      <p id="sugestao" class="highlight"></p>
+
+      <label>Escolha o protocolo
+        <select id="protocolo"></select>
+      </label>
+
+      <button id="btn-avancar">Ir para preenchimento do protocolo</button>
+    </section>
+
+    <section id="step-2" class="card hidden">
+      <h2>2) Dados específicos do protocolo</h2>
+      <form id="form-protocolo">
+        <div id="campos-protocolo" class="grid two-cols"></div>
+        <button type="submit">Finalizar e calcular</button>
+      </form>
+    </section>
+
+    <section id="resultado" class="card hidden">
+      <h2>Resultado da Avaliação</h2>
+      <div id="saida"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+# Instincts generated from https://github.com/filipemeirelles/filipemeirelles
+# Generated: 2026-03-13T13:39:16.900Z
+# Version: 2.0
+
+---
+id: filipemeirelles-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Commit Length
+
+## Action
+
+Keep commit messages concise (under 50 characters)
+
+## Evidence
+
+- Average commit message length: 25 chars
+- Based on 7 commits
+
+---
+id: filipemeirelles-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: filipemeirelles-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Export Style
+
+## Action
+
+Prefer mixed exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: mixed
+
+---
+id: filipemeirelles-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: filipemeirelles-workflow-readme-updates
+trigger: "when doing readme updates"
+confidence: 0.75
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Workflow Readme Updates
+
+## Action
+
+Follow the readme-updates workflow:
+1. Modify README.md content
+2. Commit with update message
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~5x per month
+- Files: README.md
+
+---
+id: filipemeirelles-camelcase-files
+trigger: "When creating new JavaScript files"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Camelcase Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Pattern observed in codeStyle.namingConventions.files
+- JavaScript project structure
+
+---
+id: filipemeirelles-camelcase-functions
+trigger: "When defining JavaScript functions"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Camelcase Functions
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Pattern observed in codeStyle.namingConventions.functions
+- JavaScript language preference
+
+---
+id: filipemeirelles-pascalcase-classes
+trigger: "When defining JavaScript classes"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Pascalcase Classes
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Pattern observed in codeStyle.namingConventions.classes
+- Standard JavaScript practice
+
+---
+id: filipemeirelles-screaming-snake-constants
+trigger: "When defining constants in JavaScript"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Screaming Snake Constants
+
+## Action
+
+Use SCREAMING_SNAKE_CASE naming convention
+
+## Evidence
+
+- Pattern observed in codeStyle.namingConventions.constants
+- JavaScript coding standards
+
+---
+id: filipemeirelles-mixed-imports
+trigger: "When importing modules in JavaScript"
+confidence: 0.6
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Mixed Imports
+
+## Action
+
+Use flexible import style (mixed ES6/CommonJS as needed)
+
+## Evidence
+
+- Pattern observed in codeStyle.importStyle: mixed
+- Hybrid module organization
+
+---
+id: filipemeirelles-mixed-exports
+trigger: "When exporting modules in JavaScript"
+confidence: 0.6
+domain: code-style
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Mixed Exports
+
+## Action
+
+Use flexible export style (mixed ES6/CommonJS as needed)
+
+## Evidence
+
+- Pattern observed in codeStyle.exportStyle: mixed
+- Hybrid module organization
+
+---
+id: filipemeirelles-separate-tests
+trigger: "When organizing test files"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Separate Tests
+
+## Action
+
+Place tests in separate directories from source code
+
+## Evidence
+
+- Pattern observed in architecture.folderStructure.testLocation: separate
+- Clean project structure preference
+
+---
+id: filipemeirelles-freeform-commits
+trigger: "When writing commit messages"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Freeform Commits
+
+## Action
+
+Write descriptive messages in natural language without strict prefixes
+
+## Evidence
+
+- commits.type: freeform
+- commits.prefixes: []
+- Examples: 'Corrigir fallback de preview e orientar abertura em celular', 'Revise README with new name and skills'
+
+---
+id: filipemeirelles-medium-commit-messages
+trigger: "When writing commit messages"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Medium Commit Messages
+
+## Action
+
+Write commit messages around 25 characters in length
+
+## Evidence
+
+- commits.averageLength: 25
+- Pattern observed across commit examples
+
+---
+id: filipemeirelles-readme-updates
+trigger: "When personal information, skills, or project documentation needs updating"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Readme Updates
+
+## Action
+
+Modify README.md content and commit with update message
+
+## Evidence
+
+- readme-updates workflow with frequency: 5
+- Regular pattern of README.md modifications
+- Commits like 'Revise README with new name and skills', 'Update README.md'
+
+---
+id: filipemeirelles-single-package-structure
+trigger: "When organizing project architecture"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: filipemeirelles/filipemeirelles
+---
+
+# Filipemeirelles Single Package Structure
+
+## Action
+
+Use single-package structure with hybrid module organization
+
+## Evidence
+
+- architecture.folderStructure.type: single-package
+- architecture.moduleOrganization: hybrid
+- Consistent project structure pattern
+
